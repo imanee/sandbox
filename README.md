@@ -11,5 +11,7 @@ You need Vagrant, VirtualBox and Ansible to run this VM.
 2. Run ``vagrant up``
 3. Log in to the server by running ``vagrant ssh``
 4. Access the directory ``/vagrant``
-5. Run ``composer install``
-6. Point your browser to ``192.168.13.99`` and you should see a list of the demos available.
+5. Initialize the demos submodule with ``git submodule init|git submodule update``
+6. Go to the demos folder
+7. Run ``composer install``
+8. Point your browser to ``192.168.13.99`` and you should see a list of the demos available.
