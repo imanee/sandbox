@@ -15,3 +15,9 @@ You need Vagrant, VirtualBox and Ansible to run this VM.
 6. Go to the demos folder
 7. Run ``composer install``
 8. Point your browser to ``192.168.13.99`` and you should see a list of the demos available.
+
+### Troubleshooting
+
+If you get an error at the end of the Vagrant provision, it's ok - I'm not sure yet what's wrong but that's just the "notify" part that restart php5-fpm. You should manually restart by logging in with ``vagrant ssh`` and running ``sudo service php5-fpm restart``
+
+Sorry about that, this sandbox was a last-minute thing and I still didn't have time to fix it :D
