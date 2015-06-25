@@ -8,4 +8,5 @@
     - vagrant_local
     - nginx
     - php
+    - composer
     - app
